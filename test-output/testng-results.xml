@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteTest" duration-ms="43327" started-at="2020-06-20T18:01:47Z" finished-at="2020-06-20T18:02:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="43327" started-at="2020-06-20T18:01:47Z" finished-at="2020-06-20T18:02:30Z">
+      <class name="getMethods.CallSearchProducts">
+        <test-method status="PASS" signature="openURL()[pri:0, instance:getMethods.CallSearchProducts@77cd7a0]" name="openURL" is-config="true" duration-ms="11588" started-at="2020-06-20T18:01:47Z" finished-at="2020-06-20T18:01:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="dragSlider()[pri:1, instance:getMethods.CallSearchProducts@77cd7a0]" name="dragSlider" duration-ms="11914" started-at="2020-06-20T18:01:59Z" finished-at="2020-06-20T18:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragSlider -->
+        <test-method status="PASS" signature="performSorting()[pri:2, instance:getMethods.CallSearchProducts@77cd7a0]" name="performSorting" duration-ms="12884" started-at="2020-06-20T18:02:11Z" finished-at="2020-06-20T18:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performSorting -->
+        <test-method status="PASS" signature="openPDP()[pri:3, instance:getMethods.CallSearchProducts@77cd7a0]" name="openPDP" duration-ms="249" started-at="2020-06-20T18:02:24Z" finished-at="2020-06-20T18:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPDP -->
+        <test-method status="PASS" signature="calculateEMICost()[pri:5, instance:getMethods.CallSearchProducts@77cd7a0]" name="calculateEMICost" duration-ms="6650" started-at="2020-06-20T18:02:24Z" finished-at="2020-06-20T18:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateEMICost -->
+      </class> <!-- getMethods.CallSearchProducts -->
+    </test> <!-- Test -->
+  </suite> <!-- SuiteTest -->
+</testng-results>

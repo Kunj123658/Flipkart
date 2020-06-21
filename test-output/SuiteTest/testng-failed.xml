@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteTest]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="getMethods.CallSearchProducts">
+        <methods>
+          <include name="shareProduct"/>
+          <include name="calculateEMICost"/>
+          <include name="openURL"/>
+        </methods>
+      </class> <!-- getMethods.CallSearchProducts -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [SuiteTest] -->
